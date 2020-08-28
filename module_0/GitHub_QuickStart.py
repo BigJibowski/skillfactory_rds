@@ -8,9 +8,9 @@ def game_core(number):
         if mean == number: 
             break
         if number < mean:
-            end=mean
+            end = mean
         else:
-            start=mean
+            start = mean
     return(count)
     
 def score_game(game_core):
